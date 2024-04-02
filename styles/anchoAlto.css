@@ -1,0 +1,88 @@
+div {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-width: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+.contenedor1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.contenedor2 {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.contenedor3 {
+    background-color: green;
+    width: 100px;
+    height: 200px;
+    margin: 20px;
+}
+
+/* 
+min height: Hace que el contenedor ocupe todo el ancho de la pantalla pero un minimo especificado 
+max height: La altura maxima que puede tomar se especifica pero no el minimo, por lo cual, el contenido puede ser más grande que el contenedor.
+*/
+
+.solid {
+    border: 2px solid green;
+    outline: 2px solid black;
+    outline-offset: 5px;
+}
+
+.dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border: dashed;
+}
+
+.double {
+    border-style: double;
+}
+
+.groove {
+    border-style: groove;
+}
+
+.ridge {
+    border-style: ridge;
+}
+
+.inset {
+    border-style: inset;
+}
+
+.outset {
+    border-style: outset;
+}
+
+.none {
+    border-style: none; /* no los tiene */
+}
+
+.hidden {
+    border-style: hidden; /* Los tiene, pero se encuentran ocultos */
+}
+
+.mix {
+    border-style: dotted dashed double ridge;
+}
+

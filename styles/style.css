@@ -112,3 +112,61 @@ p.indentacion {
 .variant {
     font-variant: small-caps; /* todas mayusculas, pero la primera es mas grande */
 }
+
+.roboto {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+ul.desordenada {
+    list-style-image: url(../assets/img/icons8-perro-50.png);
+}
+
+ol.ordenada {
+    list-style-type:lower-greek;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px;
+}
+
+th {
+    height: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(138, 138, 194);
+}
+
+tr:hover {
+    background-color: blueviolet;
+}
+
+/* Color Names: 140 tipos de nombres en css */
+.colores {
+    color:cadetblue;
+    background-color: black;
+}
+
+/* Color RGB: Red, Green, Blue (de 0 a 255)*/
+/* Color RGBA : Red, Green, Blue, Opacidad (va de 0 a 1) */
+h4.colores {
+    color: rgb(31, 107, 92);
+    background-color: rgba(255, 0, 255, 0.15); /* tiene alpha */
+}
+
+/* Color en hezadecimal, son 6 numeros, y dos mas para la opacidad, 8 en total */
+h4.colores {
+    color: #000000;
+    background-color: #00ff5025;
+}
+
+/* Los colores HSL se rigen por un angulo dentro de un circulo, incando, tambien saturación y brillo */
+
+/* PARA COMBINAR COLORES ESTA BUENO SERVIRSE DE PALETAS DE COLORES YA DISEÑADAS, PALLETON O COLOR-HEX, POR EJEMPLO. */

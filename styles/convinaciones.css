@@ -1,0 +1,13 @@
+    /* background-image: url(../assets/img/lianhao-qu-6t9kqT9Laxo-unsplash.jpg);
+    background-repeat: no-repeat; repeat-x Se repite en el eje X, repeat-y Se repite en el eje Y, por defecto se repite en X e Y
+    background-position: center; posicion en la que se muestra, puede ser: right, right top, right botom, etc,
+    background-attachment: fixed; la imagen queda fija en el fondo
+    background-attachment: scroll; La comienza y se mueve con el scroll */
+body {
+    background: aquamarine url(../assets/img/lianhao-qu-6t9kqT9Laxo-unsplash.jpg) no-repeat center;
+    background-size: cover; /* se adapta al tamaño de la ventana */
+}
+    
+p {
+    color: #fff;
+}
