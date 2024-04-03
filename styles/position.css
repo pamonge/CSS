@@ -1,0 +1,40 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+div {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    max-width: 80%;
+}
+
+#position {
+    position:static; /* Por defecto */
+    color: green;
+}
+
+#position1 {
+    position: relative;
+    left: 70px;
+    top: 70px;
+    color: red;
+}
+
+#position2 {
+    position: fixed; /* es relativo a los atributos de posicion que se le pongan (left, right, top, bottom), sin repetar al padre, no se mueve con el scroll */
+    color: blue;
+}
+
+#position3 {
+    position: absolute;
+    color:blueviolet;
+}
+
+#position4 {
+    position: sticky; /* Sigue el scroll una ve que llego a la posición estipulada */
+    top: 0;
+    color:darkorange;
+}

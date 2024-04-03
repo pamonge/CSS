@@ -1,0 +1,6 @@
+img {
+    width: 100px;
+    /* float: none; Ocupa su espacio */
+    /* float: left; ocupa el espacio izquierdo y permite que el texto se acomode */
+    float: inline-end;
+}
