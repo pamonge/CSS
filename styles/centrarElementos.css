@@ -1,0 +1,17 @@
+.centrar {
+    border: 2px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 200px;
+    margin: auto; /* Esto centra el div */
+    text-align: center; /* centra el texto */ 
+}
+
+img {
+    margin: 50px auto; /* 50px separa en vertical, el auto centra la imagen */
+    display: block;
+    width: 150px;
+}

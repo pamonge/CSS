@@ -1,0 +1,22 @@
+body {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    /*font-size: 1em;  El parrafo exterior hace referencia al body y el parrafo interior al div */
+    font-size: 1rem; /* busca el parrafo padre, pero como no hay, tom el valor por defecto del navegador */
+}
+
+div {
+    font-size: 15px;
+    border: 2px groove black;
+    background-color: aquamarine;
+}
+
+span {
+    font-size: 0.5em; /* toma la referencia del div contenedor */
+}

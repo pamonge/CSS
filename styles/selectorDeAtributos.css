@@ -1,0 +1,15 @@
+input[type="text"] {
+    background-color: aqua;
+}
+
+input[type="text"]:hover {
+    background-color:azure;
+}
+
+input[type="number"] {
+    background-color: blanchedalmond;
+}
+
+input[type="number"]:hover {
+    background-color: rgb(203, 147, 173);
+}
