@@ -1,0 +1,54 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 1px;
+    /* 
+    animation-name: prueba;
+    animation-duration: 3s;
+    animation-delay: 2s; Solo al comienzo y en cada iteracion no 
+    animation-iteration-count: infinite; poniendo un numero se especifica cuantas veces lo hace 
+    animation-direction: alternate; va de aca para alla. Se pueden poner otras propiedades 
+    */
+}
+
+.curva1 {
+    animation: prueba 5s linear 2s infinite alternate; /* es el shortcut de lo anterior, se puede poner todo en 1 linea de codigo */
+}
+.curva2 {
+    animation: prueba 5s ease 2s infinite alternate;
+}
+.curva3 {
+    animation: prueba 5s ease-in 2s infinite alternate;
+}
+.curva4 {
+    animation: prueba 5s ease-out 2s infinite alternate;
+}
+.curva5 {
+    animation: prueba 5s ease-in-out 2s infinite alternate;
+}
+
+ @keyframes prueba {
+    /*from {
+        background-color: red;
+    } to {
+        background-color: blue;
+    } */
+
+    0% {
+        background-color: red;
+        width: 100px;
+    } 25% {
+        background-color: green;
+        width: 150px;
+    } 50% {
+        background-color: yellow;
+        width: 100px;
+    } 75% {
+        background-color: blue;
+        width: 200px;
+    } 100% {
+        background-color: red;
+        width: 100px;
+    }
+}
